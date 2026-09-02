@@ -4,6 +4,8 @@ A modern, responsive **Fashion E-Commerce Website** built with React.js, Tailwin
 
 The project provides a complete shopping experience with product browsing, categories, wishlist, cart management, search, and order history.
 
+🌐 Live Demo https://the-noire-fashion.vercel.app/
+
 ## 🚀 Tech Stack
 
 * **React.js** – Frontend library
