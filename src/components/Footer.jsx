@@ -90,8 +90,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-14 border-t border-neutral-800 pt-6 text-xs text-neutral-500">
-          © 2026 NOIRÉ. Demo storefront built with React, Tailwind CSS and Redux
-          Toolkit.
+          © 2026 NOIRÉ. Designed and Developed by Priya Tomar. All Rights
+          Reserved.
         </div>
       </div>
     </footer>
