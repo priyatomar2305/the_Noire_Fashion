@@ -1,0 +1,2 @@
+import { FiSearch } from 'react-icons/fi';
+export default function SearchBar({value,onChange,onSubmit}){return <form onSubmit={onSubmit} className="flex items-center gap-3 rounded-full border border-neutral-300 bg-white px-4 py-3"><FiSearch className="text-neutral-500"/><input value={value} onChange={e=>onChange(e.target.value)} placeholder="Search products..." className="w-full bg-transparent text-sm outline-none" aria-label="Search products"/></form>}

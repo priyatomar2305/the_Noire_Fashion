@@ -1,0 +1,2 @@
+import ProductCard from './ProductCard';
+export default function ProductGrid({products,onToast}){if(!products.length)return <div className="col-span-full py-20 text-center"><p className="text-lg font-semibold">No products found</p><p className="mt-2 text-sm text-neutral-500">Try adjusting your search or filters.</p></div>; return <div className="grid grid-cols-2 gap-x-4 gap-y-10 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-6">{products.map(p=><ProductCard key={p.id} product={p} onToast={onToast}/>)}</div>}

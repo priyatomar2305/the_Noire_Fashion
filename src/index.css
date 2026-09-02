@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #faf9f7; color: #171717; font-family: var(--font-sans); }
+button, a, input, select { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #171717; outline-offset: 3px; }
+::selection { background: #171717; color: white; }
+.container-page { width: min(1280px, calc(100% - 2rem)); margin-inline: auto; }
+@media (min-width: 768px) { .container-page { width: min(1280px, calc(100% - 4rem)); } }
+
+.hero-grid { background-image: linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px); background-size: 48px 48px; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }

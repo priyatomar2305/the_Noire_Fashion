@@ -1,0 +1,2 @@
+import { FiCheck } from 'react-icons/fi';
+export default function Toast({ message }) { if (!message) return null; return <div role="status" className="fixed bottom-5 left-1/2 z-[100] flex -translate-x-1/2 items-center gap-2 rounded-full bg-neutral-900 px-5 py-3 text-sm font-medium text-white shadow-2xl"><span className="grid h-5 w-5 place-items-center rounded-full bg-white text-neutral-900"><FiCheck size={13}/></span>{message}</div>; }
